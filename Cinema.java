@@ -17,7 +17,11 @@ public class Cinema {
 		contaCinema++;
 		this("Cinema_" + contaCinema, prezzoBiglietto);
 	}
-
+	
+	public Cinema() {
+		contaCinema++;
+		this(0.0);
+	}
 }
 /**
  *
