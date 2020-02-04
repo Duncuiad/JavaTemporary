@@ -17,11 +17,20 @@ public class Cinema {
 		contaCinema++;
 		this("Cinema_" + contaCinema, prezzoBiglietto);
 	}
+<<<<<<< HEAD
 	
 	public Cinema() {
 		contaCinema++;
 		this(0.0);
 	}
+=======
+
+	public int lunghezza() {
+		return this.nome.lentgh();
+	}
+
+
+>>>>>>> 786d1b8618c3e30fbaafcfbd37c072303e29d858
 }
 /**
  *
