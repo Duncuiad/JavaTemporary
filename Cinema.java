@@ -18,7 +18,7 @@ public class Cinema {
 		this("Cinema_" + contaCinema, prezzoBiglietto);
 	}
 <<<<<<< HEAD
-	
+
 	public Cinema() {
 		contaCinema++;
 		this(0.0);
